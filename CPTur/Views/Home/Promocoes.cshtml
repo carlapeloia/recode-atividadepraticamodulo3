@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    @model IEnumerable<CPTur.Models.Promocoes>
+    @{
+        ViewData["Title"] = "Promocoes";
+    }
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <h1 class="card-deck mt-3 mb-5">Destinos em promoção</h1>
+
+    <div class="card-deck mb-4">
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/gramado.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text"><b>Gramado:</b> desconto de 10% para reservas a partir de 3 pessoas.</p>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/siracusa.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text"><b>Siracusa:</b> reserva antecipada para Março 2022 com 6% de desconto.</p>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/jalapao.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <p class="card-text"><b>Jalapão:</b> 10% de desconto para reservas a partir de 5 diárias.</>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -158,3 +158,4 @@ C:\Users\capel\Documents\Recode Pro\Curso\Atividade CPTur\CPTur\CPTur\CPTur\obj\
 C:\Users\capel\Documents\Recode Pro\Curso\Atividade CPTur\CPTur\CPTur\CPTur\obj\Debug\net5.0\Razor\Views\Contatoes\Details.cshtml.g.cs
 C:\Users\capel\Documents\Recode Pro\Curso\Atividade CPTur\CPTur\CPTur\CPTur\obj\Debug\net5.0\Razor\Views\Contatoes\Edit.cshtml.g.cs
 C:\Users\capel\Documents\Recode Pro\Curso\Atividade CPTur\CPTur\CPTur\CPTur\obj\Debug\net5.0\Razor\Views\Contatoes\Index.cshtml.g.cs
+C:\Users\capel\Documents\Recode Pro\Curso\Atividade CPTur\CPTur\CPTur\CPTur\obj\Debug\net5.0\Razor\Views\Home\Promocoes.cshtml.g.cs

@@ -23,6 +23,7 @@ namespace CPTur.Controllers
             return View();
         }
 
+        
         public IActionResult Promocoes()
         {
             return View();

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    @model CPTur.Models.DestinosCliente
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CPTur</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AcessoCliente" asp-action="Index">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AcessoCliente" asp-action="Promocoes">Promocoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contatoes" asp-action="Create">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="text-center">
+        <h1 class="display-3">CP Tur</h1>
+        <p>A viagem dos seus sonhos está ao seu alcance</p>
+
+    </div>
+
+    <!--cards-->
+
+    <div class="card-deck mb-4">
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/moscou.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Moscou</h5>
+                <p class="card-text text-justify ident">É a megacidade mais ao norte na Terra, a segunda cidade mais populosa da Europa e possui a segunda maior comunidade de milionários do mundo. Seu clima é frio e temperado, com temperatura média de  5.7 °C.</p>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/zuriquec.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Zurique</h5>
+                <p class="card-text  text-justify ident">A origem do nome Zurique está provavelmente nas línguas celtas com a palavra Turus. Em Zurique, o verão é agradável e com precipitação; o inverno é muito frio. Durante o ano inteiro, o tempo é de céu parcialmente encoberto.</p>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/sctenerife.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Santa Cruz de Tenerife</h5>
+                <p class="card-text  text-justify ident">É a maior das ilhas ocidentais do arquipélago canário. Seu verão é morno, úmido e árido e o inverno é longo, agradável e seco. Sua temperatura varia de 15 °C a 28 °C e raramente é inferior a 13 °C ou superior a 31 °C.</p>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/siracusa.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Siracusa</h5>
+                <p class="card-text  text-justify ident">Está localizada na Costa Leste da Sicília. A quase totalidade do contorno do seu território é banhada pelo mar Jônico (Ionico). As ruínas gregas e romanas que existem em Siracusa estão entre as melhores do Mundo.</p>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/jalapao.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Jalapão</h5>
+                <p class="card-text  text-justify ident">Está localizado no leste do Estado do Tocantins, fazendo divisa com os Estados do Maranhão, Piauí e Bahia. Seu  clima é predominantemente tropical, sua temperatura média é de 26ºC e no verão varia entre 30ºC e 35ºC.</p>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/css/imagens/gramado.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Gramado</h5>
+                <p class="card-text  text-justify ident">É uma cidade marcada pelas colonizações alemã, italiana e portuguesa. Conhecida como 'Suíça Brasileira', assim chamada por seu clima temperado, arquitetura típica e manifestações culturais.</p>
+                <p class="card-text"><small class="text-muted">Atualizado em 15 de Dezembro de 2021</small></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
